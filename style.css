@@ -1,0 +1,83 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background:url('annisa.jpg');
+}
+
+
+.container-navbar {
+    background-color: rgb(248, 11, 11);
+    width: 100%;
+    height: 10vh;
+}
+
+.ul-navbar {
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.a-navbar {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.li-navbar {
+list-style-type: none;
+padding: 10px;
+margin: 5px;
+color:rgb(10, 0, 0);
+font-size: 30px;
+}
+
+.li-navbar:hover {
+    background-color: white;
+    transition: .2s ease-in-out;
+    transition-delay: .3s;
+    border-radius: 8px;
+}
+
+.container-content {
+    background-color: rgb(1, 1, 24);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.a-content {
+    background-color: aliceblue;
+    color: black;
+    text-decoration: none;
+    width: 250px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 40px;
+    box-shadow: 8px 8px rgb(136, 39, 39);
+}
+
+.img-content {
+    width: 50%;
+    height: 60%;
+}
+
+.container-footer {
+    background-color: rgb(240, 6, 220);
+    display: flex;
+justify-content: center;
+align-items: center;
+height: 10vh;
+}
+
+.h1-content {
+    font-size: 40px;
+}
